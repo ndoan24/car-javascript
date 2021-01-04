@@ -3,12 +3,12 @@
 ##**Overview**:
 <br>
 
-This site is to show users more information about Snowboarding Sport 
+This site is to show users more information about Object Oriented programming 
 
 ## **Developer**: Ngoc Doan
 ## **Place:** *Denver, CO*
 ## **Institute: Emily Griffith Technical College
-## **Title**: Snowboarding Project 
+## **Title**: Cr Object Oriented Programming  
 ## **Date: January 04, 2021
 
 ## **Goal**:

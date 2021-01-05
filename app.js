@@ -75,7 +75,8 @@ var tesla = {
     title: "Tesla",
     make: "Tesla",
     year: 2018,
-    model: "ModelS"
+    model: "ModelS",
+    description: "Electric car, save money on gas, charge car, auto-pilot, white, black"
 }
 
 //create a method
@@ -84,6 +85,26 @@ function display () {
 var place=document.getElementById("submit");
 
 for (value in tesla)
-place.innerHTML="Title" + tesla.title + "<br>" + "Year " + tesla.year + "<br>" + "Make " + tesla.make +"<br>" +  "Model " + tesla.model
+place.innerHTML= tesla.title + "<br>" + tesla.year + "<br>" + tesla.make +"<br>" + tesla.model + "<br>" + tesla.description
+
+}
+
+// car two
+
+var jeep = {
+    title: "Jeep",
+    make: "Crysler",
+    year: 2020,
+    model: "Grand Cherokee",
+    description: "Great for off-roading,mountains, dirtroads, distance green, blue, yellow"
+}
+
+//create a method
+
+function display () {
+var place=document.getElementById("submit");
+
+for (value in jeep)
+place.innerHTML= jeep.title + "<br>" + jeep.year + "<br>" + jeep.make +"<br>" + jeep.model + "<br>" + jeep.description
 
 }

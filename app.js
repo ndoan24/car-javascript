@@ -43,25 +43,47 @@
 
 
 
-//The constuctor function 
+// //The constuctor function 
 
-function Car (title, year, make, model) {
-    this.title= title;
-    this.year=year;
-    this.make= make;
-    this.model= model;
+// function Car (title, year, make, model) {
+//     this.title= title;
+//     this.year=year;
+//     this.make= make;
+//     this.model= model;
+// }
+
+
+// //A method of the object
+
+// Car.prototype.display=function() {
+// var place=document.getElementById("Submit");
+// place.innerHTML="Title" + this.title + "Year " + this.year + "Make " + this.make + "Model " + this.model
+
+   
+//     console.log("Title" + this.title + "Year " + this.year + "Make " + this.make + "Model " + this.model)
+// }
+
+
+
+// //Instantiating a new object
+
+// var car1= new Car ("Tesla", 2018, "Tesla", "ModelS");
+// // car1.display();
+
+
+var tesla = {
+    title: "Tesla",
+    make: "Tesla",
+    year: 2018,
+    model: "ModelS"
 }
 
+//create a method
 
-//A method of the object
+function display () {
+var place=document.getElementById("submit");
 
-Car.prototype.read=function() {
-    document.write("Title" + this.title + "Year " + this.year + "Make " + this.make + "Model " + this.model)
+for (value in tesla)
+place.innerHTML="Title" + tesla.title + "<br>" + "Year " + tesla.year + "<br>" + "Make " + tesla.make +"<br>" +  "Model " + tesla.model
+
 }
-
-
-
-//Instantiating a new object
-
-var car1= new Car ("Tesla", 2018, "Tesla", ModelS);
-car1.read();

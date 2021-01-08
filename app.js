@@ -71,6 +71,8 @@
 // // car1.display();
 
 
+//car one
+
 var tesla = {
     title: "Tesla",
     make: "Tesla",
@@ -82,29 +84,80 @@ var tesla = {
 //create a method
 
 function display () {
-var place=document.getElementById("submit");
+var submit=document.getElementById("chicken");
 
 for (value in tesla)
-place.innerHTML= tesla.title + "<br>" + tesla.year + "<br>" + tesla.make +"<br>" + tesla.model + "<br>" + tesla.description
+submit.innerHTML= tesla.title + "<br>" + tesla.year + "<br>" + tesla.make +"<br>" + tesla.model + "<br>" + tesla.description
 
 }
 
-// car two
+//car two jeep
 
-var jeep = {
+
+var Jeep = {
     title: "Jeep",
-    make: "Crysler",
+    make: "Cherokee",
     year: 2020,
-    model: "Grand Cherokee",
-    description: "Great for off-roading,mountains, dirtroads, distance green, blue, yellow"
+    model: "Model7",
+    description: "latest and newest, white, black"
 }
 
 //create a method
 
 function display () {
-var place=document.getElementById("submit");
+var place=document.getElementById("lemon");
 
-for (value in jeep)
-place.innerHTML= jeep.title + "<br>" + jeep.year + "<br>" + jeep.make +"<br>" + jeep.model + "<br>" + jeep.description
+for (value in Jeep)
+place.innerHTML= Jeep.title + "<br>" + Jeep.year + "<br>" + Jeep.make +"<br>" + Jeep.model + "<br>" + Jeep.description
 
 }
+
+// car three
+
+var benz = {
+    title: "Mercedes Benz",
+    make: "Benz",
+    year: 2020,
+    model: "S7",
+    description: "latest and newest, white, black"
+}
+
+//create a method
+
+function display () {
+var place=document.getElementById("pepper");
+
+for (value in benz)
+place.innerHTML= benz.title + "<br>" + benz.year + "<br>" + benz.make +"<br>" + benz.model + "<br>" + benz.description
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//clear button 
+
+function clear1(){
+    var myobj = document.getElementById("clear1");
+    myobj.remove();
+
+ }
+ function clear2(){
+    var myobj2 = document.getElementById("clear2");
+    myobj2.remove();
+
+ }
+ function clear3(){
+    var myobj3 = document.getElementById("clear3");
+
+     myobj3.remove();
+
+ }

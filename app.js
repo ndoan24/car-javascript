@@ -73,7 +73,7 @@
 
 
 
-var Tesla = {
+var tesla = {
     title: "Tesla",
     make: "Tesla",
     year: 2018,
@@ -82,10 +82,14 @@ var Tesla = {
 }
 //create a method
 function Info () {
-var design=document.getElementById("salt");
-for (value in tesla)
-design.innerHTML= tesla.title + "<br>" + tesla.year + "<br>" + tesla.make +"<br>" + tesla.model + "<br>" + tesla.description
+    var design = document.getElementById("salt");
+for (value in tesla){
+design.innerHTML = tesla.title + "<br>" + tesla.year + "<br>" + tesla.make +"<br>" + tesla.model + "<br>" + tesla.description
 }
+}
+
+
+
 //car two jeep
 var Jeep = {
     title: "Jeep",

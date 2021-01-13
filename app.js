@@ -71,29 +71,22 @@
 // // car1.display();
 
 
-//car one
 
-var tesla = {
+
+var Tesla = {
     title: "Tesla",
     make: "Tesla",
     year: 2018,
     model: "ModelS",
     description: "Electric car, save money on gas, charge car, auto-pilot, white, black"
 }
-
 //create a method
-
-function display () {
-var submit=document.getElementById("chicken");
-
+function Info () {
+var design=document.getElementById("salt");
 for (value in tesla)
-submit.innerHTML= tesla.title + "<br>" + tesla.year + "<br>" + tesla.make +"<br>" + tesla.model + "<br>" + tesla.description
-
+design.innerHTML= tesla.title + "<br>" + tesla.year + "<br>" + tesla.make +"<br>" + tesla.model + "<br>" + tesla.description
 }
-
 //car two jeep
-
-
 var Jeep = {
     title: "Jeep",
     make: "Cherokee",
@@ -101,19 +94,13 @@ var Jeep = {
     model: "Model7",
     description: "latest and newest, white, black"
 }
-
 //create a method
-
-function display () {
-var place=document.getElementById("lemon");
-
+function Info2 () {
+var place=document.getElementById("pepper");
 for (value in Jeep)
 place.innerHTML= Jeep.title + "<br>" + Jeep.year + "<br>" + Jeep.make +"<br>" + Jeep.model + "<br>" + Jeep.description
-
 }
-
 // car three
-
 var benz = {
     title: "Mercedes Benz",
     make: "Benz",
@@ -121,22 +108,12 @@ var benz = {
     model: "S7",
     description: "latest and newest, white, black"
 }
-
 //create a method
-
-function display () {
-var place=document.getElementById("pepper");
-
+function Info3 () {
+var place=document.getElementById("lemon");
 for (value in benz)
 place.innerHTML= benz.title + "<br>" + benz.year + "<br>" + benz.make +"<br>" + benz.model + "<br>" + benz.description
-
 }
-
-
-
-
-
-
 
 
 
@@ -161,3 +138,7 @@ function clear1(){
      myobj3.remove();
 
  }
+
+
+
+ 
